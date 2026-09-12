@@ -7,7 +7,7 @@ Program1:Print Hello World
    return 0;
 } 
   OUTPUT: Hello World
-----------------------------------------------
+----------------------------------------
 Program2:Print about yourself
   #include<stdio.h>
   int main() 
@@ -20,7 +20,7 @@ Program2:Print about yourself
   OUTPUT:My name is Yamini
          I am btech 1st year student 
          My goal is to work at Google
---------------------—--------------------------
+--------------------—-------------------
 Program3:Print Addition of two numbers 
  #includd<stdio.h>
  int main() 
@@ -34,7 +34,7 @@ Program3:Print Addition of two numbers
 } 
   OUTPUT:enter a, b values:5 6
          Addition of two numbers:11
------------------------------------------------
+-------------------------------------
 Program4:Subtraction of two numbers
  #include<studio.h>
  int main() 
@@ -45,7 +45,7 @@ Program4:Subtraction of two numbers
  return 0 ;
 } 
 OUTPUT:sub of two numbers :2
---------------------------------------------
+-------------------------------------
 Program5:Multiplication of two numbers 
  #include<studio.h>
   int main() 
@@ -56,7 +56,7 @@ Program5:Multiplication of two numbers
 return 0 ;
 } 
 OUTPUT:Multiplication of two numbers:12
---------—--------------------------------------
+--------—-----------------------------
 Program6:Division of two numbers 
  #include <studio.h>
   int main () 
@@ -67,7 +67,7 @@ Program6:Division of two numbers
   return 0;
 } 
 OUTPUT:Division of two numbers:2
-----------------------------------------------
+-------------------------------------
 Program7:Modular division of two numbers 
 #include <stdio.h.>
  int main () 
@@ -78,7 +78,7 @@ Program7:Modular division of two numbers
   return 0;
 } 
 OUTPUT:Modular division of two numbers:1
------------------------------------------------
+-------------------------------------
 Program8:Area of circle
  #include<studio.h>
  int main() 
@@ -90,7 +90,8 @@ Program8:Area of circle
  return 0 ;
 } 
 OUTPUT: Area of circle:12.56
------------------------------------------------Program9:Area of Rectangle 
+---------------------------------------
+Program9:Area of Rectangle 
  #include<stdio.h>
  int main () 
 {
@@ -103,7 +104,8 @@ OUTPUT: Area of circle:12.56
 } 
 OUTPUT:enter l, b values:3,4
        Area of Rectangle:12
------------------------------------------------Program10:Perimeter of Rectangle 
+---------------------------------------
+Program10:Perimeter of Rectangle 
  #include<studio.h>
  int main () 
 {
@@ -113,7 +115,7 @@ OUTPUT:enter l, b values:3,4
  return 0 ;
 } 
 OUTPUT:Perimeter of the Rectangle:14
------------------------------------------------
+--------------------------------------
 Program11:Average of three marks      
  #include<stdio.h>
   int main() 
@@ -127,7 +129,7 @@ Program11:Average of three marks
 } 
 OUTPUT:enter a, b, c values:3 4 5
        Average of three marks:4
------------------------------------------------
+--------------------------------------
 PROGRAM12:Swap of two numbers 
  #include<stdio.h>
   int main() 
@@ -146,7 +148,46 @@ PROGRAM12:Swap of two numbers
 OUTPUT:enter a, b values:5 4
        value of a is 4
        value of b is 5
------------------------------------------------
+---------------------------------------
+Program13:Celsius to Fahrenheit 
+ #include<stdio.h>
+   int main () 
+{
+  int c=35;
+  float f=(c+9/5)+32;
+  printf("value of Fahrenheit:%f",f);
+  return 0 ;
+} 
+OUTPUT:value of Fahrenheit:
+------------------------------------
+Program14:Calculate simple interest 
+ #include<studio.h>
+  int main() 
+{
+  int p=100000;
+  float r= 2.5, t=4;
+  float si=(p*r*t) /100;
+  printf("simple interest:%f", so) ;
+  return 0;
+} 
+OUTPUT:simple interest:
+-------------------------------------
+Program15:Square and cube of a number
+int num=3;
+int sqr=3*3;
+int cube=3*3*3;
+printf("square of 3:%d",sqr);
+printf("cube of 3:%d",cube);
+return 0;
+} 
+OUTPUT:square of 3:9
+       cube of 3:27
+---------------------------------------
+
+
+
+ 
+
 
 
 
