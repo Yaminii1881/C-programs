@@ -1,0 +1,38 @@
+               TODAY PROGRAMS
+Program1:Area of a Triangle
+#include<stdio.h>
+int main() 
+{
+int b=2,h=3;
+float area=(b*h) /2;
+printf("Area of Triangle:%f", area) ;
+return 0 ;
+}
+OUTPUT:Area of Triangle=2.5
+-----------------------------------------
+Program2:Perimeter of a Triangle 
+W
+#include<stdio.h>
+int main () 
+{
+int a=3,b=4,c=2;
+float perimeter=(a+b+c)/3;
+printf("Perimeter of triangle:%f" Perimeter) ;
+return 0 ;
+}
+OUTPUT:Perimeter of triangle:3.00
+-----------------------------------------
+Program3:Calculate percentage of 5 marks
+#include <stdio.h >
+int main() 
+{
+int tel=44,hin=45,eng=43,mat=50,ss=45;
+int obtained marks=tel+hin+eng+mat+ss;
+ int total marks=250;
+ float percentage=(obtained marks/total marks) *100;
+printf("Percentage of 5 marks:%f", percentage) ;
+return 0 ;
+} 
+OUTPUT:Percentage of 5 marks:90.8
+------------------------------------------
+
