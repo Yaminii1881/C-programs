@@ -158,7 +158,7 @@ Program13:Celsius to Fahrenheit
   printf("value of Fahrenheit:%f",f);
   return 0 ;
 } 
-OUTPUT:value of Fahrenheit:
+OUTPUT:value of Fahrenheit:71.5
 ------------------------------------
 Program14:Calculate simple interest 
  #include<studio.h>
@@ -170,7 +170,7 @@ Program14:Calculate simple interest
   printf("simple interest:%f", so) ;
   return 0;
 } 
-OUTPUT:simple interest:
+OUTPUT:simple interest:10000.00
 -------------------------------------
 Program15:Square and cube of a number
 int num=3;
