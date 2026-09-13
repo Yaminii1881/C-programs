@@ -35,4 +35,106 @@ return 0 ;
 } 
 OUTPUT:Percentage of 5 marks:90.8
 ------------------------------------------
+Program4:Convert Fahrenheit to Celsius 
+#include<stdio.h>
+int main() 
+{
+float f=77.5 ;
+float c=(f-32)*9/5;
+printf("Celsius=%f",c) ;
+return 0;
+} 
+OUTPUT:Celsius=
+-------------------------------------------
+Program5:Convert kilometers to meters
+#include<stdio.h >
+int main() 
+{
+int km=5;
+int m=km*1000;
+printf("Meters:%d", m) ;
+return 0;
+} 
+OUTPUT: Meters=5000
+-------------------------------------------
+Program6:Convert ruppes to Paisa 
+#include<stdio.h>
+int main() 
+{
+int rupee=5;
+int paisa=rupee*100;
+printf("Total Paisa:%d", paisa) ;
+return 0 ;
+} 
+OUTPUT:Total Paisa:500
+------------------------------------------
+Program7:Calculate final price after applying discount 
+#include<stdio.h>
+int main ()
+{
+float rice_per_kg=250,oil=400,atta=500;
+float price=rice_per_kg+oil+atta;
+float discount=10%;
+total_price=price/discount ;
+printf("Total price after discount:%f", total_price) ;
+return 0 ;
+} 
+OUTPUT:Total price after discount:
+---------------------------------------
+Program8:Calculate Compound interest 
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+float p=1000,r=10,t=2,ci,a;
+a=p*pow((1+r/100), t);
+ci=a-p;
+printf("Compound interest=%f", ci) ;
+return 0;
+} 
+OUTPUT:Compound interest=210
+---------------------------------------------
+Program9:Basic Salary
+#include<stdio.h>
+int main() 
+{
+float basic, da, hra, gross;
+basic=20000.00;
+da=basic*20%;
+hra=basic*10%;
+gross=basic+da+hra;
+printf("Gross salary:%f", gross) ;
+} 
+OUTPUT:Gross salary:26000.00
+----------------------------------------
+Program10:swaping of two variable without third variable 
+#include<stdio.h>
+int main() 
+{
+int a=10,b=20;
+a=a+b;
+b=a-b;
+a=a-b;
+printf("After swapping\n") ;
+printf("value of a:%d\n", a) ;
+printf("value of b:%d", b) ;
+return 0;
+} 
+OUTPUT:After swapping 
+       value of a:20
+       value of b:10
+---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
