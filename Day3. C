@@ -18,7 +18,7 @@ PROGRAM2:Calculate total cost of items
   int items=25;
   float cost=3.5;
   float total_cost=items*cost;
-  printf("Total cost of items:%. 2f",total_cost);
+  printf("Total cost of items:%.2f",total_cost);
   return 0;
 } 
 OUTPUT:Total cost of items:87.5
@@ -57,7 +57,7 @@ int seconds =minutes*60;
 printf("Total no of seconds:%d", seconds) ;
 return 0;
 } 
-OUTPUT:Total no of seconds:10,800
+OUTPUT:Total no of seconds:10800
 ---------------------------------------
 Program6:Convert days to hours
  #include<stdio.h>
