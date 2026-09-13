@@ -1,127 +1,126 @@
                TODAY PROGRAMS
 Program1:Area of a Triangle
-#include<stdio.h>
-int main() 
-{
-int b=2,h=3;
-float area=(b*h) /2;
-printf("Area of Triangle:%.2f", area) ;
-return 0 ;
-}
-OUTPUT:Area of Triangle=3.0
+ #include<stdio.h>
+ int main() 
+ {
+ int b=2,h=3;
+ float area=(b*h) /2;
+ printf("Area of Triangle:%.2f", area) ;
+ return 0 ;
+ }
+ OUTPUT:Area of Triangle=3.0
 ----------------------------------
 Program2:Perimeter of a Triangle 
-W
-#include<stdio.h>
-int main () 
-{
-int a=3,b=4,c=2;
-float perimeter=(a+b+c);
-printf("Perimeter of triangle:%.2f" Perimeter) ;
-return 0 ;
-}
-OUTPUT:Perimeter of triangle:9.0
+ #include<stdio.h>
+ int main () 
+ {
+ int a=3,b=4,c=2;
+ float perimeter=(a+b+c);
+ printf("Perimeter of triangle:%.2f"    Perimeter) ;
+ return 0 ;
+ }
+ OUTPUT:Perimeter of triangle:9.0
 ------------------------------------
 Program3:Calculate percentage of 5 marks
-#include <stdio.h >
-int main() 
-{
-int tel=44,hin=45,eng=43,mat=50,ss=45;
-int obtained marks=tel+hin+eng+mat+ss;
+ #include <stdio.h >
+ int main() 
+ {
+ int tel=44,hin=45,eng=43,mat=50,ss=45;
+ int obtained marks=tel+hin+eng+mat+ss;
  int total marks=250;
- float percentage=(obtained marks*100. 0)/total marks ;
-printf("Percentage of 5 marks:%.2f", percentage) ;
-return 0 ;
-} 
-OUTPUT:Percentage of 5 marks:90.8
+  float percentage=(obtained marks*100. 0)/total marks ;
+ printf("Percentage of 5 marks:%.2f", percentage) ;
+ return 0 ;
+ } 
+ OUTPUT:Percentage of 5 marks:90.8
 ---------------------------------------
 Program4:Convert Fahrenheit to Celsius 
-#include<stdio.h>
-int main() 
-{
-float f=77.5 ;
-float c=(f-32)*5/9;
-printf("Celsius=%.2f",c) ;
-return 0;
-} 
-OUTPUT:Celsius=25.28
+ #include<stdio.h>
+ int main() 
+ {
+ float f=77.5 ;
+ float c=(f-32)*5/9;
+ printf("Celsius=%.2f",c) ;
+ return 0;
+ } 
+ OUTPUT:Celsius=25.28
 ----------------------------------------
 Program5:Convert kilometers to meters
-#include<stdio.h >
-int main() 
-{
-int km=5;
-int m=km*1000;
-printf("Meters:%d", m) ;
-return 0;
-} 
-OUTPUT: Meters=5000
+ #include<stdio.h >
+ int main() 
+ {
+ int km=5;
+ int m=km*1000;
+ printf("Meters:%d", m) ;
+ return 0;
+ } 
+ OUTPUT: Meters=5000
 -------------------------------------------
 Program6:Convert ruppes to Paisa 
-#include<stdio.h>
-int main() 
-{
-int rupee=5;
-int paisa=rupee*100;
-printf("Total Paisa:%d", paisa) ;
-return 0 ;
-} 
-OUTPUT:Total Paisa:500
+ #include<stdio.h>
+ int main() 
+ {
+ int rupee=5;
+ int paisa=rupee*100;
+ printf("Total Paisa:%d", paisa) ;
+ return 0 ;
+ } 
+ OUTPUT:Total Paisa:500
 ------------------------------------------
 Program7:Calculate final price after applying discount 
-#include<stdio.h>
-int main ()
-{
-float rice_per_kg=250,oil=400,atta=500;
-float price=rice_per_kg+oil+atta;
-float discount=10;
-float discount_amount=(price*discount) /100;
-total_price=price - discount_amount;
-printf("Total price after discount:%.2f", total_price) ;
-return 0 ;
-} 
-OUTPUT:Total price after discount:1035.00
+ #include<stdio.h>
+ int main ()
+ {
+ float rice_per_kg=250,oil=400,atta=500;
+ float price=rice_per_kg+oil+atta;
+ float discount=10;
+ float discount_amount=(price*discount) /100;
+ total_price=price - discount_amount;
+ printf("Total price after discount:%.2f", total_price) ;
+ return 0 ;
+ } 
+ OUTPUT:Total price after discount:1035.00
 ---------------------------------------
 Program8:Calculate Compound interest 
-#include<stdio.h>
-#include<math.h>
-int main()
-{
-float p=1000,r=10,t=2,ci,a;
-a=p*pow((1+r/100), t);
-ci=a-p;
-printf("Compound interest=%.2f", ci) ;
-return 0;
-} 
-OUTPUT:Compound interest=210
+ #include<stdio.h>
+ #include<math.h>
+ int main()
+ {
+ float p=1000,r=10,t=2,ci,a;
+ a=p*pow((1+r/100), t);
+ ci=a-p;
+ printf("Compound interest=%.2f", ci) ;
+ return 0;
+ } 
+ OUTPUT:Compound interest=210
 --------------------------------------
 Program9:Basic Salary
-#include<stdio.h>
-int main() 
-{
-float basic, da, hra, gross;
-basic=20000.00;
-da=basic*20%;
-hra=basic*10%;
-gross=basic+da+hra;
-printf("Gross salary:%.2f", gross) ;
-} 
-OUTPUT:Gross salary:26000.00
+ #include<stdio.h>
+ int main() 
+ {
+ float basic, da, hra, gross;
+ basic=20000.00;
+ da=basic*20%;
+ hra=basic*10%;
+ gross=basic+da+hra;
+ printf("Gross salary:%.2f", gross) ;
+ } 
+ OUTPUT:Gross salary:26000.00
 ----------------------------------------
 Program10:swaping of two variable without third variable 
-#include<stdio.h>
-int main() 
-{
-int a=10,b=20;
-a=a+b;
-b=a-b;
-a=a-b;
-printf("After swapping\n") ;
-printf("value of a:%d\n", a) ;
-printf("value of b:%d", b) ;
-return 0;
-} 
-OUTPUT:After swapping 
+ #include<stdio.h>
+ int main() 
+ {
+ int a=10,b=20;
+ a=a+b;
+ b=a-b;
+ a=a-b;
+ printf("After swapping\n") ;
+ printf("value of a:%d\n", a) ;
+ printf("value of b:%d", b) ;
+ return 0;
+ } 
+ OUTPUT:After swapping 
        value of a:20
        value of b:10
 --------------------------------------
