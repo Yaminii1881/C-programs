@@ -1,0 +1,126 @@
+               TODAY PROGRAMS
+Program1:Electricity Bill
+ #include<stdio.h>
+  int main()
+ {
+  int no_of_unit=45;
+  float cost_per_unit=2.5;
+  float bill=no_of_units*cost_per_unit;
+  printf("Total bill:%. 2f",bill);
+  return 0;
+} 
+OUTPUT:Total bill:112.5
+--------------------------------------
+PROGRAM2:Calculate total cost of items
+ #include<stdio.h>
+  int main() 
+ {
+  int items=25;
+  float cost=3.5;
+  float total_cost=items*cost;
+  printf("Total cost of items:%. 2f",total_cost);
+  return 0;
+} 
+OUTPUT:Total cost of items:87.5
+----------------------------------------
+Program3:Find last digit of a number
+ #include<stdio.h>
+  int main() 
+ {
+  int num,last_digit;
+  printf("enter num:") ;
+  scanf("%d", &mum) ;
+  last_digit=num%10;
+  printf("last digit of num:%d", last_digit) ;
+  return 0;
+ } 
+ OUTPUT:enter num:4568
+        last digit of num:8
+------------------------------------------
+Program4:Convert Hours to minutes 
+ #include<stdio.h>
+ int main() 
+{
+ int hours=4;
+ int minutes=hours*60;
+ printf("Total minutes:%d", minutes) ;
+ return 0;
+} 
+OUTPUT:Total minutes:240
+-----------------------------------------
+Program5:Convert minutes to seconds 
+ #include<stdio.h>
+ int main() 
+{
+int minutes=180;
+int seconds =minutes*60;
+printf("Total no of seconds:%d", seconds) ;
+return 0;
+} 
+OUTPUT:Total no of seconds:10,800
+---------------------------------------
+Program6:Convert days to hours
+ #include<stdio.h>
+ int main() 
+ {
+  int days=365;
+  int hours=days*24;
+  printf("Total no of hours:%d",hours) ;
+  return 0;
+} 
+OUTPUT:Total no of hours:8760 
+------------------------------------------
+PROGRAM7:Convert kilograms to grams
+ #include<stdio.h>
+ int main() 
+{
+ float kg=5.5;
+ float grams=kg*1000;
+ printf("Total grams:%d",grams) ;
+ return 0;
+} 
+OUTPUT:Total grams:5500.00
+---------------------------------------
+Program8:Find first digit of 3 digit number
+ #include<stdio.h>
+ int main() 
+ {
+  int n=534,first;
+  first=n/100;
+  printf("First digit is:%d", first) ;
+  return 0;
+} 
+OUTPUT:First digit is:5
+----------------------------------------
+PROGRAM9:Find second digit of 3 digit number 
+ #include<stdio.h>
+ int main() 
+{
+  int n=687;
+  int second=(n/10)%10;
+  printf("Second digit is:%d", second) ;
+  return 0;
+} 
+OUTPUT:Second digit is:8
+-------------------------------------
+Program10:Find second digit of 4 digit number 
+ #include<stdio.h>
+ int main()
+ {
+   int n=3421;
+   int second=(n/100)%10;
+   printf("Second digit is:%d", second) ;
+   return 0;
+} 
+OUTPUT:Second digit is:4
+---------------------------------------
+
+
+
+
+ 
+
+
+
+
+
