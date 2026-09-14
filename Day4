@@ -46,7 +46,85 @@ Program3:Product of 3 digit number
 OUTPUT:enter num value:476
        Product of 3 digit number:168
 -------------------------------------------
-Program4:
+Program4:Reverse a 4 digit number 
+ #include<stdio.h>
+ int main() 
+{
+ int n,a,b,c,reverse;
+ n=1234;
+ a=n/1000;
+ b=(n/100)%10;
+ c=(n/10)%10;
+ d=n%10;
+ reverse=(d*1000+c*100+b*10+a);
+ printf("reverse of 1234 is:%d",reverse) ;
+ return 0;
+} 
+OUTPUT:Reverse of 1234 is:4321
+------------------------------------------
+Program5:Sum of first and last digit of a number 
+ #include<stdio.h>
+  int main() 
+{
+ int number,first,last,sum;
+ number=987;
+ first=number/100;
+ last=number%10;
+ sum=first+last;
+ printf("Sum of first&last digit is:%d",sum) ;
+ return 0;
+} 
+OUTPUT:Sum of first&last digit is:16
+-----------------------------------------
+Program6:Difference between second and first digit of a number 
+ #include<stdio.h>
+ int main() 
+{
+ int num,second,first,diff;
+ num=789;
+ second=(num/10)%10;
+ first=num/100;
+ diff=second - first;
+ printf("Difference of second and first digit is:%d", diff) ;
+ return 0;
+} 
+OUTPUT:Difference of second and first digit is:1
+------------------------------------------
+Program7:Calculate  sum of square of first and second digit in a number
+ #include<stdio.h>
+  int main() 
+ {
+  int num,second, first,sqr, sum;
+  num=457;
+  second=(num/10)%10;
+  first=num%10;
+  sqr=(second*second) +(first*first) ;
+  printf("Square of second and first digit is:%d", sqr) ;
+  return 0;
+} 
+OUTPUT:Square of second and first digit is:41
+----------------------------------------
+Program8:Sum of even positions in a digit
+ #include<stdio.h>
+ int main() 
+ {
+  int number,a,b, sum;
+  number=5678;
+  a=(num/100) %10;
+  b=num%10;
+  sum=a+b;
+  printf("Sum of even digits:%d", sum) ;
+
+
+
+
+
+
+
+
+
+  
+
 
 
 
