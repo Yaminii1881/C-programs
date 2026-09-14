@@ -1,1 +1,52 @@
+
                 TODAY PROGRAMS
+Program1:Circumference of a circle 
+ #include<stdio.h>
+  int main() 
+{
+  float r=3.2;
+  float pi=3.14;
+  float circumference=2*pi*r;
+  printf("Circumference of a circle:%.2f",circumference) ;
+  return 0;
+} 
+OUTPUT:Circumference of a circle:20.096
+----------------------------------------
+Program2:Sum of a three digit number 
+ #include<stdio.h>
+  int main() 
+{
+  int num,a,b,c,sum;
+  printf("enter value of num:") ;
+  scanf("%d",&num) ;
+  a=num/100;
+  b=(num/10)%10;
+  c=num%10`
+  sum=a+b+c;
+  printf("Sum of num is:" %d", num) ;
+  return 0;
+} 
+OUTPUT:enter value of num:476
+       Sum of num is:17
+---------------------------------------
+Program3:Product of 3 digit number 
+ #include<stdio.h>
+  int main() 
+ {
+   int n,x, y, z, product;
+   printf("enter num value:") ;
+   scanf("%d", &n) ;
+   a=num/100;
+   b=(num/10)%10;
+   c=num%10;
+   product=a*b*c;
+   printf("Product of 3 digit number:%d",product) ;
+ return 0;
+} 
+OUTPUT:enter num value:476
+       Product of 3 digit number:168
+-------------------------------------------
+Program4:
+
+
+
