@@ -1,1 +1,85 @@
               TODAY PROGRAMS 
+Program1:Using different type of data types
+ #include<stdio.h>
+ int main()
+{
+int a=5;
+float b=4.51;
+char c='v' ;
+double d=2.345;
+printf("Integer:", a) ;
+printf("Float value :", b) ;
+printf("character:", c) ;
+printf("double:", d) ;
+return 0;
+} 
+OUTPUT:Integer:5
+       Float value:4.51
+       Character:v
+       double:2.345
+------------------------------------------
+Program2:Assignment operators 
+ #include<stdio.h>
+ int main() 
+{
+ int a=3;
+ a+=2;
+ printf("value of a:", a) ;
+ a-=1;
+ printf("value of a:", a) ;
+ a*=2;
+ printf("value of a :", a) ;
+ return 0;
+} 
+OUTPUT:value of a:5
+       value of a:4
+       value of a:8
+------------------------------------------
+Program3:Relational Operators
+ #include<stdio.h>
+ int main() 
+{
+ int a=4,b=5;
+ printf(a>b\n) ;
+ printf(a<b\n) ;
+ printf(a<=b\n) ;
+ printf(a>=b) ;
+ return 0;
+} 
+OUTPUT:0
+       1
+       1
+       0
+-----------------------------------------
+Program4:Logical operators 
+ #include<stdio.h>
+  int main() 
+ {
+  int a=5,b=4,c=3,d,e,f";
+  d=(a>b) && (a>c);
+  printf("value of d:", d) ;
+  e=(a<b) ¦¦ (b>c) ;
+  printf("value of e:", e) ;
+  f=(c<a)! (c<b) ;
+  printf("value of f:", f) ;
+  return 0;
+} 
+OUTPUT:value of d:1
+       value of e:1
+       value of f:0
+-------------------------------------------
+Program5:
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
