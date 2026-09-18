@@ -1,4 +1,4 @@
-              TODAY PROGRAMS 
+I              TODAY PROGRAMS 
 Program1:Using different type of data types
  #include<stdio.h>
  int main()
@@ -68,7 +68,37 @@ OUTPUT:value of d:1
        value of e:1
        value of f:0
 -------------------------------------------
-Program5:
+Program5:Increment or decrement operators 
+ #include<stdio.h>
+  int main() 
+ {
+  int a=5,b,c,d,e;
+  b=++a;
+  c=a++;
+  d=--a;
+  e=a--;
+  printf("value of a:",b);
+  printf("value of a:",c);
+  printf("value of a:",d);
+  printf("value of a:",e);
+  return 0 ;
+} 
+OUTPUT:value of a:
+       value of a:
+       value of a:
+       value of a :
+-----------------------------------------
+Program6:Conditional Operator
+ #include<stdio.h>
+  int main() 
+{
+  int a=5,b=6;
+  (a>b)? printf("a is large):printf("b is large") ;
+  return 0;
+} 
+OUTPUT:b is large
+------------------------------------------
+
 
  
  
