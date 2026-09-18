@@ -1,4 +1,4 @@
-II              TODAY PROGRAMS 
+             TODAY PROGRAMS 
 Program1:Using different type of data types
  #include<stdio.h>
  int main()
