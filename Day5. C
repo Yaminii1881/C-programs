@@ -1,4 +1,4 @@
-I              TODAY PROGRAMS 
+II              TODAY PROGRAMS 
 Program1:Using different type of data types
  #include<stdio.h>
  int main()
@@ -7,10 +7,10 @@ int a=5;
 float b=4.51;
 char c='v' ;
 double d=2.345;
-printf("Integer:", a) ;
-printf("Float value :", b) ;
-printf("character:", c) ;
-printf("double:", d) ;
+printf("Integer:%d\n", a) ;
+printf("Float value :%f\n", b) ;
+printf("character:%c\n", c) ;
+printf("double:%llf\n", d) ;
 return 0;
 } 
 OUTPUT:Integer:5
@@ -24,11 +24,11 @@ Program2:Assignment operators
 {
  int a=3;
  a+=2;
- printf("value of a:", a) ;
+ printf("value of a:%d\n", a) ;
  a-=1;
- printf("value of a:", a) ;
+ printf("value of a:%d\n", a) ;
  a*=2;
- printf("value of a :", a) ;
+ printf("value of a :%d\n", a) ;
  return 0;
 } 
 OUTPUT:value of a:5
@@ -57,11 +57,11 @@ Program4:Logical operators
  {
   int a=5,b=4,c=3,d,e,f";
   d=(a>b) && (a>c);
-  printf("value of d:", d) ;
+  printf("value of d:%d\n", d) ;
   e=(a<b) ¦¦ (b>c) ;
-  printf("value of e:", e) ;
+  printf("value of e:%d\n", e) ;
   f=(c<a)! (c<b) ;
-  printf("value of f:", f) ;
+  printf("value of f:%d\n", f) ;
   return 0;
 } 
 OUTPUT:value of d:1
@@ -77,10 +77,10 @@ Program5:Increment or decrement operators
   c=a++;
   d=--a;
   e=a--;
-  printf("value of a:",b);
-  printf("value of a:",c);
-  printf("value of a:",d);
-  printf("value of a:",e);
+  printf("value of a:%d\n",b);
+  printf("value of a:%d\n",c);
+  printf("value of a:%d\n",d);
+  printf("value of a:%d\n",e);
   return 0 ;
 } 
 OUTPUT:value of a:
@@ -98,6 +98,42 @@ Program6:Conditional Operator
 } 
 OUTPUT:b is large
 ------------------------------------------
+Program7:operator presidence
+ #include<stdio.h>
+ int main() 
+{
+ int a=5*6-4;
+ printf("value of a:%d", a);
+ return 0;
+} 
+OUTPUT:value of a:26
+--------------------------------------------
+Program8:Type Conversion
+ #include<stdio.h>
+  int main() 
+{
+ int a=4;
+ float b=8.2;
+ float sum=a+b;
+ printf("value of sum:%d", sum) ;
+ return 0;
+} 
+OUTPUT:value of sum:12.2
+--------------------------------------------
+Program9:Type casting
+ #include<stdio.h>
+ int main() 
+{
+ int a=5;
+ float b=3.5
+ sum=float(a-b);
+ printf("value of sub:%f",sum) ;
+ return 0;
+} 
+OUTPUT:value of sub:1.5
+----------------------------------------
+
+
 
 
  
